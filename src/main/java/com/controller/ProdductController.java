@@ -9,6 +9,7 @@ public class ProdductController {
 	@GetMapping(value ="/get")
 	public String name() {
 		String name ="Sameer & Amol";
+		String n = "amol";
 		return name;
 	}
 	
